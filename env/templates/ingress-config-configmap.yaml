@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  clusterissuer: "false"
+  domain: jx.yogorobot.cloud
+  email: ""
+  exposer: Ingress
+  issuer: ""
+  tls: "false"
+  urltemplate: ""
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: ingress-config

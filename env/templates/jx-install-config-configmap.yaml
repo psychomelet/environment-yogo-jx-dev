@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQCfLi6pg98rMr5yHm5TzwZzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRhYTkwYjg0NC0zMDNiLTRiMmMtODE3OS1jNmJhMDhlNDc5NTMw
+    HhcNMTkwNzE0MTMzMDI2WhcNMjQwNzEyMTQzMDI2WjAvMS0wKwYDVQQDEyRhYTkw
+    Yjg0NC0zMDNiLTRiMmMtODE3OS1jNmJhMDhlNDc5NTMwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDUxWfxb5nQrfOvCXowpDD8bdn51RlBLelLQ+CjPIZl
+    qinJy4IKy5r/5szlgMAUrpNas+Em8f7SudqN1CQNAt2v4NRUCTIv4uTXxtGuwK/i
+    Vc+mrHcNhJTEHHMLe4HmlmPI4ah+lR21hzjygVh9ofy6cTrE5WZ0Hyx0DIb337W9
+    LY4BR3yrvrF0ekt4s2JZkxG/JvFQhN47py4Him5mWfRhlfgf3W/SYDQm5TbXvDy7
+    cx8i3mtVdHiKm//8CUGd8kiYgxyUVmChtZmicAsA/LAcDOND03/r9rkE/r6zk4hg
+    zb/gHOlWZwuG3563C3MjP2SG2X2rRYMhs/C1Nc5KVyvnAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDR
+    NrNptdxxxOJiF9jhtpy0z55D1HRh3JNaJh1RXAtAh6JsCnng40alHFxuJueALWZj
+    zH3TBieO0hvT9ok3OEXwEZlhh0JSalDMHucP+v/0m+7PDq6yUnB0FKEIMOx0vCE5
+    Riw3wlZf9zX3JfF8mzGhqst5++TwSNDO005wQfiMZgs1fMg0JrDsBDfAJ7sxRwk/
+    3k6QvJwNAQDSyKZKSJn8dtkeYWDE3Dbusl9oYXIdsiXbzqE3AxgzUnB/+kJ0xc+/
+    3I1q6WQEZN2DWa9uWLMR2YNwDtVWlocJSY/MCLnFRmLr13QYmFT7jJOKKXAuH/Sm
+    icz7SEwux4vajoXIatut
+    -----END CERTIFICATE-----
+  clusterName: yogo-jx
+  jx-install-version: 2.0.461
+  kubeProvider: gke
+  projectID: yogo-ci
+  region: ""
+  secretsLocation: vault
+  server: https://35.189.138.235
+  systemVaultName: jx-vault-yogo-jx
+  zone: asia-northeast1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
